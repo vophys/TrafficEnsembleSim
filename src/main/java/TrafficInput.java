@@ -1,13 +1,16 @@
+import org.eclipse.sumo.libtraci.*;
+
 /**
  * This class contains the method for creating the input data for the traffic simulation.
  * The input data contains of the following:
  * - The config files for the simulation
+ *
  * For that some things are needed:
  * - The information about the street (constant for all simulations)
  * - The information about the vehicles for the next simulation creation (vehicles, density, speed, ...)
  * - The traffic input matrix contains the information about the max_speeds for the different segments and timesteps
  *
- * - Files to create:
+ * Files to create:
  * - .sumocfg (config file that contains the paths to the other files and the time for the simulation)
  * - net-file .net.xml (contains the information about the streets)
  * - route-file .rou.xml (contains the information about the vehicles)
@@ -27,6 +30,12 @@
  */
 
 public class TrafficInput {
-
-
+    public static void main(String[] args) {
+        System.loadLibrary("libtracijni");
+        Simulation.start(new StringVector(new String[] {"sumo", "-n", "net.net.xml"}));
+        for (int i = 0; i < 5; i++) {
+            Simulation.step();
+        }
+        Simulation.close();
+    }
 }
