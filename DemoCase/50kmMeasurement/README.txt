@@ -1,0 +1,1 @@
+Set in TrafficModelParameters setDetectorsPerLane((int) (50000 / deltaX));

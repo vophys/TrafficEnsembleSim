@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../Linear_2000_2_1.net.xml"/>
+		<route-files value="../Routes2000_2_Krauss_represent_traffic_BBV_30.rou.xml"/>
+		<additional-files value="../Linear_InductionLoops1000_2_freq_0.1_indloopDistance_5.0_STAND.add.xml, ../BlockLane0_1500meter.add.xml"/>
+		<gui-settings-file value="../viewSettings.xml"/>
+	</input>
+<!-- 	<time>
+        <begin value="50"/>
+        <end value="100"/>
+    </time> -->
+	<processing>
+        <time-to-teleport value="-1"/>
+	</processing>
+
+    <report>
+        <xml-validation value="never"/>
+        <no-duration-log value="true"/>
+        <no-step-log value="true"/>
+    </report>
+	 
+ </configuration>

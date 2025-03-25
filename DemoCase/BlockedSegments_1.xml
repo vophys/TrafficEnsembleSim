@@ -1,0 +1,34 @@
+<rerouter>
+   <interval begin="0" end="10000">
+      <closingLaneReroute id="1200_0"/>
+	  <closingLaneReroute id="1201_0"/>
+	  <closingLaneReroute id="1202_0"/>
+	  <closingLaneReroute id="1203_0"/>
+	  <closingLaneReroute id="1204_0"/>
+	  <closingLaneReroute id="1205_0"/>
+	  <closingLaneReroute id="1206_0"/>
+	  <closingLaneReroute id="1207_0"/>
+	  <closingLaneReroute id="1208_0"/>
+	  <closingLaneReroute id="1209_0"/>
+	  <closingLaneReroute id="1210_0"/>
+	  <closingLaneReroute id="1211_0"/>
+	  <closingLaneReroute id="1212_0"/>
+	  <closingLaneReroute id="1213_0"/>
+	  <closingLaneReroute id="1214_0"/>
+	  <closingLaneReroute id="1215_0"/>
+	  <closingLaneReroute id="1216_0"/>
+	  <closingLaneReroute id="1217_0"/>
+	  <closingLaneReroute id="1218_0"/>
+	  <closingLaneReroute id="1219_0"/>
+	  <closingLaneReroute id="1220_0"/>
+	  <closingLaneReroute id="1221_0"/>
+	  <closingLaneReroute id="1222_0"/>
+	  <closingLaneReroute id="1223_0"/>
+	  <closingLaneReroute id="1224_0"/>
+	  <closingLaneReroute id="1225_0"/>
+	  <closingLaneReroute id="1226_0"/>
+	  <closingLaneReroute id="1227_0"/>
+	  <closingLaneReroute id="1228_0"/>
+	  <closingLaneReroute id="1229_0"/>
+   </interval>
+</rerouter>
