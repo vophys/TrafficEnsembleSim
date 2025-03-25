@@ -138,3 +138,21 @@ def create_rou_xml(vehicle_dict, route_dict, file_template):
         file.write(last_string)
 
     print(f'Created file {file_name}')
+
+def binary_data_to_segments(binary_data, segment_length):
+    # This function converts the binary data to segments
+    # The binary data is a list of 0s and 1s
+    # The segment length is the length of the segments
+
+    segments = []
+    segment = []
+    for data in binary_data:
+        if data == 0:
+            segment.append(0)
+        else:
+            segment.append(1)
+            if len(segment) == segment_length:
+                segments.append(segment)
+                segment = []
+
+    return segments

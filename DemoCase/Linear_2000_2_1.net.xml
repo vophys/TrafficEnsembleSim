@@ -13481,7 +13481,7 @@
         <lane id="427_1" index="1" speed="55.00" length="50.00" customShape="1" shape="21350.00,6.60 21400.00,6.60"/>
     </edge>
     <edge id="428" from="428" to="429" priority="40">
-        <lane id="428_0" index="0" speed="55 .00" length="50.00" customShape="1" shape="21400.00,3.30 21450.00,3.30"/>
+        <lane id="428_0" index="0" speed="55.00" length="50.00" customShape="1" shape="21400.00,3.30 21450.00,3.30"/>
         <lane id="428_1" index="1" speed="55.00" length="50.00" customShape="1" shape="21400.00,6.60 21450.00,6.60"/>
     </edge>
     <edge id="429" from="429" to="430" priority="40">

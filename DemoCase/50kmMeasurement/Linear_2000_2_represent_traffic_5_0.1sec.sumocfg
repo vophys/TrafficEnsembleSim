@@ -4,7 +4,7 @@
 
     <input>
         <net-file value="../Linear_2000_2_1.net.xml"/>
-		<route-files value="../Routes2000_2_Krauss_represent_traffic_BBV_30.rou.xml"/>
+		<route-files value="../../src/test/python/routes/test.rou.xml"/>
 		<additional-files value="../Linear_InductionLoops1000_2_freq_0.1_indloopDistance_5.0_STAND.add.xml, ../BlockLane0_1500meter.add.xml"/>
 		<gui-settings-file value="../viewSettings.xml"/>
 	</input>
