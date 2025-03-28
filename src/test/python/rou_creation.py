@@ -64,7 +64,7 @@ def randomly_place_vehicle(
 
     else:
         x = 1
-        print('No more vehicles can be placed')
+        # print('No more vehicles can be placed')
         # print(vehicle_dict, route_dict)
         # print(density_current, density_target)
         return vehicle_dict, route_dict
@@ -118,8 +118,8 @@ def check_which_vehicle_fits(segment_length, density, vehicle_types_df):
         if vehicle_length < available_space:
             fitting_vehicles.append(vehicle_type[1].name)
 
-    if len(fitting_vehicles) == 0:
-        print('No vehicles fit in the available space')
+    # if len(fitting_vehicles) == 0:
+        # print('No vehicles fit in the available space')
 
     return fitting_vehicles
 
